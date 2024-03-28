@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+</head>
+<body style="padding: 20px;">
+    <div>
+        <a href="./index.html">Back to IndexPage</a><br><br>
+    </div>
+    <center>
+        <form action="./index.html">
+            <h1 style="color: blue;">Registration Form</h1>
+            <table  border="1" cellspacing = "0">
+                <tr>
+                    <th>
+                        <label for="fname">First Name:</label>
+                    </th>
+                    <td>
+                        <input type="text" id="fname" name="fname" size="60">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="lname">Last name:</label>
+                    </th>
+                    <td>
+                        <input type="text" id="lname" name="lname" size="60">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="email">E-Mail:</label>
+                    </th>
+                    <td>
+                        <input type="text" id="email" name="email" size="60">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="pass">Password:</label>
+                    </th>
+                    <td>
+                        <input type="password" id="pass" name="pass" size="60">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="repass">Re-enter Password:</label>
+                    </th>
+                    <td>
+                        <input type="password" id="repass" name="repass" size="60">
+                    </td>
+                </tr>
+                <tr>
+                    <th rowspan="2">
+                        <label for="gender">Gender:</label>
+                    </th>
+                    <td>
+                        <input type="radio" id="Male" name="gender">
+                        <label for="Male">Male</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="Female" name="gender">
+                        <label for="Female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="age">Age:</label>
+                    </th>
+                    <td>
+                        <input type="number" id="age" name="age">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="ph">Phone Number:</label>
+                    </th>
+                    <td>
+                        <input type="tel" id="ph" name="ph" size="60">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="add">Address:</label>
+                    </th>
+                    <td>
+                        <textarea name="add" id="add" cols="56" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="state">State:</label>
+                    </th>
+                    <td>
+                        <input type="text" id="state" name="state" size="60">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="country">State:</label>
+                    </th>
+                    <td>
+                        <select name="country" id="country">
+                            <option>Choose your Country</option>
+                            <option value="india">India</option>
+                            <option value="USA">USA</option>
+                            <option value="UK">UK</option>
+                            <option value="russia">Russia</option>
+                            <option value="germany">Germany</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="languages">Languages Known:</label>
+                    </th>
+                    <td>
+                        <input type="checkbox" id="english" name="languages">
+                        <label for="english">English</label>
+
+                        <input type="checkbox" id="english" name="languages">
+                        <label for="english">Hindi</label>
+
+                        <input type="checkbox" id="english" name="languages">
+                        <label for="english">Telugu</label>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="declaration">
+                        <label for="declaration">Hereby I declare all the given details are true</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right">
+                        Log in to <a href="https://learn.codemithra.com/login/index.php" target="_blank">Ethnus</a> website
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <div>
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </center>
+</body>
+</html>
